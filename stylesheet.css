@@ -9,15 +9,15 @@ html{
 }
 .story_card {
   /* The image used */
-  background-image: url("images/dnd_1.png");
+  background-image: url("https://via.placeholder.com/1500x500?text=_");
 
   /* Full height */
-  height: 100%;
+  width: 100%;
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+
 }
 .about_bg{
   height: 55%;
@@ -39,14 +39,16 @@ html{
   padding-left: 10px;
 }
 .navbar-brand{
-  font-size: 30px;
+  font-size: 40px;
   padding: 0%;
   
 }
 .nav-link{
-  font-size: 20px; 
+  font-size: 30px; 
   padding: 0%;
+  
 }
+
 
 
 
@@ -142,7 +144,15 @@ a:active {
   border: 0;
   
 }
-
+.card-text{
+  color:#202020;
+}
+.card-title{
+  color:#202020;
+}
+.card-img-overlay{
+  color:#202020;
+}
 .jumbotron{
   background-color: #202020;
 }
