@@ -1,5 +1,5 @@
 body{
-  background-color: #202020; 
+  background-color: #29434e;
   color: #ffffff; 
   font-family: 'Sarala', sans-serif;
 
@@ -17,6 +17,19 @@ html{
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+.bg {
+  /* The image used */
+  background-image: url("images/dnd_1.png");
+
+  /* Full height */
+  height:70%;
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
 }
 .about_bg{
@@ -45,16 +58,16 @@ html{
 }
 .nav-link{
   font-size: 30px; 
-  padding: 0%;
-  
+  padding: 1%;
+  margin: 2%;
+  background-color: #29434e;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000000;
 }
-
-
-
 
 .dropdown-menu{
   background-color: #98a9b1;
-  
+  box-shadow: 2px 2px 4px #000000;
 }
 
 .dropdown-item{
@@ -167,9 +180,12 @@ a:active {
   border-radius: 10px;
 }
 .terciary_background{
-  background-color: #272727;
+  background-color: #98a9b1;
   padding: 10px;
   border-radius: 10px;
+}
+.roundless{
+  border-radius: 0px;
 }
 .extra_button_fill{
   background-color: #29434e;
