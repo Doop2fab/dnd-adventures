@@ -14,6 +14,7 @@ body{
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 html{
   scroll-behavior: smooth;
@@ -196,7 +197,8 @@ a:active {
   color:#202020;
 }
 .card-title{
-  color:#202020;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000; 
 }
 .card-img-overlay{
   color:#202020;
