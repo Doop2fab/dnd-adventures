@@ -4,6 +4,9 @@ body{
   font-family: 'Sarala', sans-serif;
 
 }
+.text-muted{
+  color: #202020 !important;
+}
 .index-background{
   background-image: url("images/maps/xanth_oil_background.jpg");
   background-position: left;
