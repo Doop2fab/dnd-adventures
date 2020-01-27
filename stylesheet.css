@@ -97,11 +97,6 @@ html{
 }
 .nav-link{
   font-size: 30px; 
-  padding: 1%;
-  margin: 2%;
-  background-color: #29434e;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px #000000;
 }
 
 .dropdown-menu{
