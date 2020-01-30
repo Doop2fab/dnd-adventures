@@ -16,7 +16,7 @@ body{
 .character-background{
   background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   
 }
 html{
@@ -182,6 +182,10 @@ a:active {
 .card-body{
   background-color: #819ca9;
   font-size: 20px;
+}
+.card-body-character{
+  background-color: #717171;
+
 }
 .card-footer{
   background-color: #313131;
