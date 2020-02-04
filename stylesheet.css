@@ -194,9 +194,7 @@ a:active {
 .card-img-overlay{
   color:#202020;
 }
-.jumbotron{
-  background-color: #202020;
-}
+
 .secondary_background{
   background-color: #222222;
   padding: 35px;
@@ -240,6 +238,10 @@ a:active {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.card-carousel
+    {
+      padding: 8%;
+    }
 
 .program_button{
   border-top-left-radius: 0px;
@@ -310,6 +312,11 @@ a:active {
     .navbar-brand{
       font-size: 0px;
       padding: 0%;
+      
+    }
+    .card-carousel
+    {
+      padding: 35%;
       
     }
     
